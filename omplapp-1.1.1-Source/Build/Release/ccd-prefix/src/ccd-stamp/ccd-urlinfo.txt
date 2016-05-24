@@ -1,3 +1,0 @@
-repository='external project URL'
-module='https://github.com/danfis/libccd/archive/v2.0.tar.gz'
-tag='ee45fc60980d76f25cad3a0eda8bd9aa'

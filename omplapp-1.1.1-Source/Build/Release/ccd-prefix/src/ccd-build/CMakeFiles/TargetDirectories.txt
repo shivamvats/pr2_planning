@@ -1,2 +1,0 @@
-/home/osboxes/groovy_ws2/pr2_planning/omplapp-1.1.1-Source/Build/Release/ccd-prefix/src/ccd-build/CMakeFiles/ccd.dir
-/home/osboxes/groovy_ws2/pr2_planning/omplapp-1.1.1-Source/Build/Release/ccd-prefix/src/ccd-build/CMakeFiles/ccd_static.dir

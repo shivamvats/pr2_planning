@@ -10,5 +10,4 @@
 #do
 find /home/osboxes/pr2_planning -type d -name "bin" -exec rm -r {} \;
 find /home/osboxes/pr2_planning -type d -name "build" -exec rm -r {} \;
-find /home/osboxes/pr2_planning -type d -name "Build" -exec rm -r {} \;
 #done

@@ -1,3 +1,0 @@
-repository='external project URL'
-module='http://downloads.sourceforge.net/project/ompl/dependencies/fcl-0.3.1.zip'
-tag='3b36420e54998c674b8dba3a5bbaf3f6'
