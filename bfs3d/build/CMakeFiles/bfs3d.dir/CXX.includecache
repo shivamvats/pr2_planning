@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/bfs3d/BFS_3D.h
+
+/home/osboxes/groovy_ws2/pr2_planning/bfs3d/src/BFS_3D.cpp
+bfs3d/BFS_3D.h
+-
+boost/thread.hpp
+-
+stdio.h
+-
+
+/home/osboxes/groovy_ws2/pr2_planning/bfs3d/src/Search.cpp
+bfs3d/BFS_3D.h
+-
+stdio.h
+-
+

@@ -1,0 +1,180 @@
+OMPL version 1.1.0
+Experiment Passage
+0 experiment properties
+Running on karthik-sbpl
+Starting at 2016-01-26T08:18:36.875139
+<<<|
+Properties of the state space 'SE2CompoundSpace0'
+  - signature: 6 4 3 1 2 2 1 
+  - dimension: 3
+  - extent: 157.134
+  - sanity checks for state space passed
+  - probability of valid states: 0.582
+  - average length of a valid motion: 29.3645
+  - average number of samples drawn per second: sampleUniform()=1.25e+07 sampleUniformNear()=8.40336e+06 sampleGaussian()=2.849e+06
+Settings for the state space 'SE2CompoundSpace0'
+  - state validity check resolution: 1%
+  - valid segment count factor: 1
+  - state space:
+Compound state space 'SE2CompoundSpace0' of dimension 3 (locked) [
+Real vector state space 'RealVectorSpace1' of dimension 2 with bounds: 
+  - min: -55 -55 
+  - max: 55 55 
+ of weight 1
+SO2 state space 'SO2Space2'
+ of weight 0.5
+]
+Registered projections:
+  - <default>
+Projection of dimension 2
+Cell sizes (computed defaults): [5.5 5.5]
+
+Declared parameters:
+longest_valid_segment_fraction = 0.01
+projection.cellsize.0 = 5.5
+projection.cellsize.1 = 5.5
+projection.cellsize_factor = 
+valid_segment_count_factor = 1
+Valid state sampler named uniform with parameters:
+nr_attempts = 100
+Planner LBKPIECE1 specs:
+Multithreaded:                 No
+Reports approximate solutions: No
+Can optimize solutions:        No
+Aware of the following parameters: border_fraction min_valid_path_fraction range
+Declared parameters for planner LBKPIECE1:
+border_fraction = 0.90000000000000002
+min_valid_path_fraction = 0.5
+range = 31.426857637567071
+Start states:
+Compound state [
+RealVectorState [45 -45]
+SO2State [3.14]
+]
+Goal state, threshold = 1e-06, memory address = 0x1cde560, state = 
+Compound state [
+RealVectorState [-40 45]
+SO2State [0]
+]
+Optimization Objective: Path Length @0x1cf0020
+Optimization Threshold: 1.79769e+308
+Average state cost: 0
+There are 0 solutions
+
+Properties of benchmarked planners:
+Planner RRT specs:
+Multithreaded:                 No
+Reports approximate solutions: Yes
+Can optimize solutions:        No
+Aware of the following parameters: goal_bias range
+Planner ppma_planner specs:
+Multithreaded:                 No
+Reports approximate solutions: Yes
+Can optimize solutions:        No
+Aware of the following parameters: goal_bias range
+|>>>
+<<<|
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                8
+On-line CPU(s) list:   0-7
+Thread(s) per core:    2
+Core(s) per socket:    4
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 26
+Stepping:              4
+CPU MHz:               1600.000
+BogoMIPS:              5320.12
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              8192K
+NUMA node0 CPU(s):     0-7
+|>>>
+1331822766 is the random seed
+20 seconds per run
+10000 MB per run
+10 runs per planner
+4.19592 seconds spent to collect the data
+1 enum type
+status|Unknown status|Invalid start|Invalid goal|Unrecognized goal type|Timeout|Approximate solution|Exact solution|Crash|Unknown status
+2 planners
+geometric_RRT
+7 common properties
+goal_bias = 0.050000000000000003
+longest_valid_segment_fraction = 0.01
+projection.cellsize.0 = 5.5
+projection.cellsize.1 = 5.5
+projection.cellsize_factor = 
+range = 31.426857637567071
+valid_segment_count_factor = 1
+15 properties for each run
+approximate solution BOOLEAN
+correct solution BOOLEAN
+correct solution strict BOOLEAN
+graph motions INTEGER
+graph states INTEGER
+memory REAL
+solution clearance REAL
+solution difference REAL
+solution length REAL
+solution segments INTEGER
+solution smoothness REAL
+solved BOOLEAN
+status ENUM
+time REAL
+valid segment fraction REAL
+10 runs
+0; 1; 1; 517; 518; 0.01953125; 3.9832059287302095; -1; 277.81256736179756; 17; 0.40818361633164868; 1; 6; 0.19290599999999999; 0.21595655806182121; 
+0; 1; 1; 789; 790; 0.35546875; 5.3292301549879593; -1; 221.5946618997815; 12; 0.15717303881066935; 1; 6; 0.29191800000000001; 0.22889469103568319; 
+0; 1; 1; 237; 238; 0.6640625; 5.2056020053827385; -1; 260.55312906529298; 12; 0.055607664243449637; 1; 6; 0.097017000000000006; 0.22421948912015138; 
+0; 1; 1; 109; 110; 0.6640625; 6.0852960590784022; -1; 301.62513747505744; 16; 0.13291561658147841; 1; 6; 0.041207000000000001; 0.2309322033898305; 
+0; 1; 1; 505; 506; 0.6640625; 6.2860597921845214; -1; 260.5350207374122; 20; 0.5758730369016466; 1; 6; 0.19628000000000001; 0.22042776080314272; 
+0; 1; 1; 139; 140; 0.6640625; 5.8563008752319003; -1; 237.58647908335857; 13; 0.060974614876745201; 1; 6; 0.051409000000000003; 0.2231139646869984; 
+0; 1; 1; 190; 191; 0.6640625; 6.2959109596473679; -1; 242.75175447400036; 14; 0.14246494741582091; 1; 6; 0.068248000000000003; 0.2219626168224299; 
+0; 1; 1; 205; 206; 0.6640625; 7.3789779702068898; -1; 235.43572767843673; 12; 0.033867070896728621; 1; 6; 0.078978999999999994; 0.22727272727272727; 
+0; 1; 1; 216; 217; 0.6640625; 7.5270043888801403; -1; 251.40299870761464; 15; 0.13850896678443181; 1; 6; 0.089887999999999996; 0.24517593643586832; 
+0; 1; 1; 884; 885; 0.6640625; 6.4634885976353216; -1; 239.51501669106574; 19; 0.99155532849155392; 1; 6; 0.31169200000000002; 0.21012598050867601; 
+.
+geometric_ppma_planner
+7 common properties
+goal_bias = 0.050000000000000003
+longest_valid_segment_fraction = 0.01
+projection.cellsize.0 = 5.5
+projection.cellsize.1 = 5.5
+projection.cellsize_factor = 
+range = 31.426857637567071
+valid_segment_count_factor = 1
+15 properties for each run
+approximate solution BOOLEAN
+correct solution BOOLEAN
+correct solution strict BOOLEAN
+graph motions INTEGER
+graph states INTEGER
+memory REAL
+solution clearance REAL
+solution difference REAL
+solution length REAL
+solution segments INTEGER
+solution smoothness REAL
+solved BOOLEAN
+status ENUM
+time REAL
+valid segment fraction REAL
+10 runs
+0; 0; 0; 1245; 1246; 957.5859375; 2.8116031169394549; -1; 253.67504704373141; 107; 206.79233746437865; 1; 6; 0.920381; 0.42253521126760563; 
+0; 0; 0; 297; 298; 957.88671875; 10.75118968059363; -1; 145.34236366618779; 31; 23.48908106010909; 1; 6; 0.018029; 0.66666666666666663; 
+0; 0; 0; 1543; 1544; 959.4296875; 4.0340004435748904; -1; 231.72349454770597; 149; 129.63984807333276; 1; 6; 0.22244900000000001; 0.37016574585635359; 
+0; 0; 0; 719; 720; 959.73046875; 4.804856237008555; -1; 181.09362277370843; 58; 87.702068005455573; 1; 6; 0.094223000000000001; 0.52380952380952384; 
+0; 0; 0; 1275; 1276; 961.1875; 2.6032114111556721; -1; 224.22251550662958; 151; 197.37485228634685; 1; 6; 0.265847; 0.41578947368421054; 
+0; 0; 0; 1196; 1197; 962.11328125; 4.8696092435367726; -1; 258.68220045209; 95; 111.92093636409598; 1; 6; 0.16861100000000001; 0.53731343283582089; 
+0; 0; 0; 1594; 1595; 963.8671875; 2.9151942445058676; -1; 227.48827076963497; 165; 6695.4310387826918; 1; 6; 0.33976000000000001; 0.48113207547169812; 
+0; 0; 0; 693; 694; 964.8984375; 5.7682694216169024; -1; 141.04620103497479; 32; 188.58789271111584; 1; 6; 0.075340000000000004; 0.620253164556962; 
+0; 0; 0; 470; 471; 965.06640625; 7.6315471651214519; -1; 159.59778818329607; 22; 30.150295881511557; 1; 6; 0.096095; 0.5757575757575758; 
+0; 0; 0; 665; 666; 965.11328125; 6.6010778391882203; -1; 179.51209680628008; 60; 72.247060132584593; 1; 6; 0.073806999999999998; 0.49315068493150682; 
+.

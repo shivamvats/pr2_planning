@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/osboxes/groovy_ws2/pr2_planning/sbpl/build/devel/setup.sh
